@@ -1,0 +1,34 @@
+/*Nombre del juego; Rey maldito 
+Nombre del grupo: DS creative
+Integrantes: Sergio Ortiz (creativo y diseños)
+              Diego Guzman (programador)
+Fecha : 04/05/2023
+MAteria: DESARROLLO DE VIDEOJUEGOS
+Docente: Dennnis Delgado A.
+*/
+<style>
+  body {
+    background: black;
+  }
+</style>
+<canvas></canvas>
+
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"
+  integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script src="js/utils.js"></script>
+<script src="js/data/collisions.js"></script>
+<script src="js/classes/CollisionBlock.js"></script>
+<script src="js/classes/Sprite.js"></script>
+<script src="js/classes/Player.js"></script>
+<script src="js/eventListeners.js"></script>
+<script src="index.js"></script>
+<script  src="plataformerAi.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+<audio autoplay src="./enter-hallownest.mp3" autoplay loop></audio>
+<button onclick="FinalLevel()">Nivel Final</button>
+<button onclick="playMusic()">Reproducir Musica</button>
+
